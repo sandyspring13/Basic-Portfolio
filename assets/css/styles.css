@@ -1,0 +1,37 @@
+
+#logo 
+{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+}
+
+
+li {
+    display: inline;
+    text-align: right;
+
+    
+
+}
+
+
+#header_content {
+    background-color: white;
+}
+
+#aboutMe_content {
+    background-color: white;
+    width: 960px;
+    float: center;
+}
+
+
+#main_content {
+    /* background-image: url("assets/images/Gravel_Background.png"); */
+    
+    text-align: center;
+}
+
+
+
