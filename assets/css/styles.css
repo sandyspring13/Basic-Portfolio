@@ -23,13 +23,14 @@ li {
 #aboutMe_content {
     background-color: white;
     width: 960px;
-    float: center;
+    display: inline-block;
 }
 
 
 #main_content {
     /* background-image: url("assets/images/Gravel_Background.png"); */
-    
+    width: 1500px;
+    align-content: center;
     text-align: center;
 }
 
