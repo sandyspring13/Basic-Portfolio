@@ -15,7 +15,22 @@ li {
 
 }
 
+#aboutMeHeader {
+    color: #4aaaa5;
+    text-align: left;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #f4ede7;
+    padding-left: 10px;
+}
 
+#profilePicture {
+
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+}
 #header_content {
     background-color: white;
 }
@@ -23,15 +38,26 @@ li {
 #aboutMe_content {
     background-color: white;
     width: 960px;
+    height: 460px;
     display: inline-block;
+    margin-top: 50px;
+}
+
+p {
+
+    text-align: left;
 }
 
 
 #main_content {
     /* background-image: url("assets/images/Gravel_Background.png"); */
-    width: 1500px;
+    width: 1200px;
+    height: 600px;
     align-content: center;
     text-align: center;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
 }
 
 
