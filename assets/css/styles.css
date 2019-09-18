@@ -1,19 +1,80 @@
 
-#logo 
-{
-    background-color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 300px;
+body {
+    color: #777777;
+}
+
+#header_content {
+    background-color: white;
+    width: 1200px;
+}
+
+
+#nameLogo {
+    /*  width: 100px; */
+      float: left;
+      background-color: #4aaaa5;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      width: 30%;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      margin-left: 120px;
+      color: white;
+
+  }
+
+ 
+  
+  #pageLinks{
+      /*width: 860px; */
+      float: left;
+      width: 50%;
+      text-align: right;
+      margin-left: 0;
+     
+  } 
+
+
+section {
+    float: left;
 }
 
 
 li {
+
+    clear: both;
+    overflow:auto;
     display: inline;
     text-align: right;
-
-    
-
+    padding-right: 15px;
+    margin: 0;
+    padding-bottom: 0px;
+     
 }
+a {
+    color:#777777;
+}
+
+
+#main_content {
+    width: 1200px;
+    height: 600px;
+    align-content: center;
+    text-align: center;
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    
+}
+
+
+#aboutMe_content {
+    background-color: white;
+    width: 960px;
+    height: 460px;
+    display: inline-block;
+    margin-top: 50px;
+} 
 
 #aboutMeHeader {
     color: #4aaaa5;
@@ -26,39 +87,20 @@ li {
 
 #profilePicture {
 
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     float: left;
     padding-left: 10px;
-}
-#header_content {
-    background-color: white;
+    padding-right: 10px;
 }
 
-#aboutMe_content {
-    background-color: white;
-    width: 960px;
-    height: 460px;
-    display: inline-block;
-    margin-top: 50px;
-}
 
 p {
 
     text-align: left;
+
 }
 
-
-#main_content {
-    /* background-image: url("assets/images/Gravel_Background.png"); */
-    width: 1200px;
-    height: 600px;
-    align-content: center;
-    text-align: center;
-    border: 1px;
-    border-color: gray;
-    border-style: solid;
-}
 
 
 
