@@ -1,13 +1,22 @@
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     color: #777777;
 }
 
 #header_content {
-    background-color: white;
+    background-color: #ffffff;
     width: 1200px;
+   /* border-color: #cccccc; */
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #nameLogo {
     /*  width: 100px; */
@@ -18,7 +27,7 @@ body {
       padding: 0;
       margin: 0;
       text-align: center;
-      margin-left: 120px;
+      margin-left: 95px;
       color: white;
 
   }
@@ -56,33 +65,37 @@ a {
 }
 
 
-#main_content {
+#background_style {
     width: 1200px;
     height: 600px;
     align-content: center;
     text-align: center;
-    border: 1px;
-    border-color: gray;
-    border-style: solid;
-    
+    flex-grow: 1;
+    border-top-style: solid;
+    border-top-color: #666666;
+    border-top-width: 5px;
 }
 
 
-#aboutMe_content {
-    background-color: white;
+#inner_content_style {
+    background-color: #ffffff;
     width: 960px;
     height: 460px;
     display: inline-block;
     margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #dddddd;
+
 } 
 
-#aboutMeHeader {
+#headerOneStyle {
     color: #4aaaa5;
     text-align: left;
     border-bottom: 2px;
     border-bottom-style: solid;
     border-bottom-color: #f4ede7;
-    padding-left: 10px;
+    
 }
 
 #profilePicture {
@@ -99,6 +112,39 @@ p {
 
     text-align: left;
 
+}
+
+/* Contact Page Styles */
+
+form {
+   text-align: left;
+   width: 100%;
+
+}
+
+input {
+    width: 100%;
+}
+
+#messageBox {
+    height: 150px;
+}
+
+#submitButton {
+    width: 100px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+/* Footer Styles */
+
+.page_footer {
+    flex-shrink: 0;
+    background-color: #666666;
+    width: 1200px;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
 }
 
 
